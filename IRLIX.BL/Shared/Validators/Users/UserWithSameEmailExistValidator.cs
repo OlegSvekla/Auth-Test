@@ -1,4 +1,5 @@
 ﻿using IRLIX.Core.Entities;
+using IRLIX.Repository.Repository.Interfaces.Common;
 
 namespace IRLIX.BL.Shared.Modifiers.Validators.Users;
 

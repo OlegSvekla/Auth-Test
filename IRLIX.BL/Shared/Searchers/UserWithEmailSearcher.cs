@@ -1,7 +1,9 @@
 ﻿using IRLIX.Core.Entities;
 using IRLIX.Core.IRLIX.Web.Identity.Lockouts.Models;
-using IRLIX.Repository.Enums;
+using IRLIX.Repository.Repository.Interfaces.Common;
+using IRLIX.Repository.Repository.Interfaces.Enums;
 using System.Linq.Expressions;
+using IRLIX.Core.Core.General;
 
 namespace IRLIX.BL.Shared.Modifiers.Searchers;
 

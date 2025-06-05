@@ -1,5 +1,6 @@
 ﻿using IRLIX.Core.Hashes;
 using IRLIX.Core.Identity;
+using IRLIX.Repository.Repository.Interfaces.Common;
 using Microsoft.EntityFrameworkCore;
 
 namespace IRLIX.BL.Shared.Modifiers.Updaters;

@@ -1,4 +1,4 @@
-﻿namespace IRLIX.Repository.Enums;
+﻿namespace IRLIX.Repository.Repository.Interfaces.Enums;
 
 public enum SearchModeEnum
 {

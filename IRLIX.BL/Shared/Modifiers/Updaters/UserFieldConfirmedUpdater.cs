@@ -1,5 +1,6 @@
 ﻿using IRLIX.Core.Entities;
 using IRLIX.Core.Identity;
+using IRLIX.Repository.Repository.Interfaces.Common;
 
 namespace IRLIX.BL.Shared.Modifiers.Updaters;
 

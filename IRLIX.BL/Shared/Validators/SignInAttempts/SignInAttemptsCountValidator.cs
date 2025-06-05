@@ -1,6 +1,7 @@
 ﻿using IRLIX.BL.Shared.Lockouts;
 using IRLIX.Core.Identity;
 using IRLIX.Core.Time;
+using IRLIX.Repository.Repository.Interfaces.Common;
 
 namespace IRLIX.BL.Shared.Modifiers.Validators.SignInAttempts;
 

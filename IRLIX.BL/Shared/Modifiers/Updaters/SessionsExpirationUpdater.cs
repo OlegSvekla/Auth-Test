@@ -1,5 +1,7 @@
 ﻿using IRLIX.Core.Entities;
+using IRLIX.Repository.Repository.Interfaces.Common;
 using Microsoft.EntityFrameworkCore;
+using IRLIX.Core.Core.General;
 
 namespace IRLIX.BL.Shared.Modifiers.Updaters;
 
