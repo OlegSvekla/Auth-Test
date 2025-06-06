@@ -2,5 +2,5 @@
 
 public static class Consts
 {
-    public const string ResourceName = "IRLIX.Auth.Resources.Auth";
+    public const string ResourceName = "IRLIX.BL.Resources.Auth";
 }

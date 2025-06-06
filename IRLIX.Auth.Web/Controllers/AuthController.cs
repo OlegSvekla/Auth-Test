@@ -32,7 +32,7 @@ public class AuthController(
     IMapper<SignMeOutBodyRq, SignMeOutCommand> signMeOutBodyRqToCommandMapper,
     IMapper<AuthTokensQueryRs, AuthTokensRs> authTokensQueryRsToRsMapper,
     IMapper<IReadOnlyCollection<GetUsersQueryRs>, IReadOnlyCollection<GetUsersRs>> getUsersQueryRssToRssMapper
-    ) : AuthWebApiController
+    ) : WebApiController
 {
     [HttpPost("sign-up")]
     [ProducesResponseType(Status204NoContent)]

@@ -53,10 +53,7 @@ internal static class Bootstrap
         services.AddScoped<IMapper<UpdateMyAccessTokenByRefreshTokenBodyRq, UpdateMyAccessTokenByRefreshTokenCommand>, UpdateMyAccessTokenByRefreshTokenBodyRqToCommandMapper>();
         services.AddScoped<IMapper<Guid, UpdateMyAccessTokenByRefreshTokenQuery>, UpdateMyAccessTokenByRefreshTokenCommandIdToQueryMapper>();
 
-        services.AddScoped<IMapper<GetMyUserQueryRs, GetMyUserRs>, GetMyUserQueryRsToRsMapper>();
         services.AddScoped<IMapper<IReadOnlyCollection<GetUsersQueryRs>, IReadOnlyCollection<GetUsersRs>>, GetUsersQueryRssToRssMapper>();
-        services.AddScoped<IMapper<SearchWithDeletedQueryRq, GetUsersQuery>, SearchWithDeletedQueryRqToGetUsersQueryMapper>();
-        services.AddScoped<IMapper<SetUserLockoutRq, SetUserLockoutCommand>, SetUserLockoutRqToCommandMapper>();
 
         services.AddScoped<IMapper<VerifyCodeByMeViaEmailBodyRq, VerifyCodeByMeViaEmailCommand>, VerifyCodeByMeViaEmailBodyRqToCommandMapper>();
         services.AddScoped<IMapper<Guid, VerifyCodeByMeViaEmailQuery>, VerifyCodeByMeViaEmailCommandIdToQueryMapper>();

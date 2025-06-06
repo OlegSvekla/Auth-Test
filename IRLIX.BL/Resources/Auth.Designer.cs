@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace IRLIX.Auth.Resources
-{
-
-
+namespace IRLIX.BL.Resources {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -39,7 +39,7 @@ namespace IRLIX.Auth.Resources
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("IRLIX.Auth.Resources.Auth", typeof(Auth).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("IRLIX.BL.Resources.Auth", typeof(Auth).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -59,7 +59,7 @@ namespace IRLIX.Auth.Resources
                 resourceCulture = value;
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Your IRLIX code: {0}.
         /// </summary>
@@ -68,7 +68,7 @@ namespace IRLIX.Auth.Resources
                 return ResourceManager.GetString("SendEmailOtpCodeMessage", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to IRLIX - Sign in code.
         /// </summary>
@@ -77,7 +77,7 @@ namespace IRLIX.Auth.Resources
                 return ResourceManager.GetString("SendEmailOtpCodeSubject", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to &lt;#&gt; Your IRLIX code: {0}.
         /// </summary>
@@ -88,7 +88,7 @@ namespace IRLIX.Auth.Resources
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ShuttleX - Sign in code.
+        ///   Looks up a localized string similar to IRLIX - Sign in code.
         /// </summary>
         internal static string SendSmsOtpCodeSubject {
             get {
