@@ -1,8 +1,10 @@
 ﻿using IRLIX.Aggregator.Ef.Entities.Auth;
+using IRLIX.BL.Exceptions.SignIns;
 using IRLIX.Core.General;
 using IRLIX.Ef.Repositories;
 using IRLIX.Ef.Repositories.Enums;
 using IRLIX.Web.Identity.Lockouts.Models;
+using ShuttleX.Auth.Exceptions.SignIns;
 using System.Linq.Expressions;
 
 namespace IRLIX.BL.Shared.Modifiers.Searchers;

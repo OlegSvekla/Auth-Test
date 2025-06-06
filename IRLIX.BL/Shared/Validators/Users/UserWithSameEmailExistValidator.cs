@@ -1,4 +1,5 @@
 ﻿using IRLIX.Aggregator.Ef.Entities.Auth;
+using IRLIX.BL.Exceptions.SignUps;
 using IRLIX.Ef.Repositories;
 
 namespace IRLIX.BL.Shared.Modifiers.Validators.Users;

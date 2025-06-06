@@ -26,8 +26,6 @@ public class SignMeInViaEmailCommandHandler(
         SignMeInViaEmailCommand command,
         CancellationToken ct)
     {
-        //TODO: implement ip validator to block in case of multiple calls
-
         var lowerCaseEmail = command.Email.ToLowerInvariant();
         var dto = await userWithEmailSearcher.ValidateAndGetAsync(lowerCaseEmail, ct);
         var userId = dto.UserId;
