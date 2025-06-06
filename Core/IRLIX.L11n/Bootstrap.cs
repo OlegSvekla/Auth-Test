@@ -1,4 +1,5 @@
-﻿using IRLIX.L11n.Configs;
+﻿using IRLIX.Di.Configs;
+using IRLIX.L11n.Configs;
 using IRLIX.L11n.Providers;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.Extensions.Configuration;

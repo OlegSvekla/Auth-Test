@@ -1,4 +1,5 @@
-﻿using IRLIX.Logging.Configurators;
+﻿using IRLIX.Core.General;
+using IRLIX.Logging.Configurators;
 using IRLIX.Logging.Middlewares;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;

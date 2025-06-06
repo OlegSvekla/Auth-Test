@@ -1,13 +1,10 @@
-﻿using System.Net.Mime;
-using Asp.Versioning;
+﻿using Asp.Versioning;
+using IRLIX.Core.General;
 using Microsoft.AspNetCore.Mvc;
-using ShuttleX.Core.General;
-using ShuttleX.Web.Controllers.Dtos;
-using ShuttleX.Web.Models.Rss;
-using ShuttleX.Web.Models.Rss.Errors;
+using System.Net.Mime;
 using static Microsoft.AspNetCore.Http.StatusCodes;
 
-namespace ShuttleX.Web.Controllers;
+namespace IRLIX.Web.Controllers;
 
 [ApiController]
 [ApiVersion(1)]

@@ -4,6 +4,7 @@ using IRLIX.Ef.Setup.Soft;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using IRLIX.Core.General;
 
 namespace IRLIX.Ef.Identity;
 

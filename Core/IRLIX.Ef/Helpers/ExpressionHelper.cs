@@ -1,5 +1,6 @@
 ﻿using IRLIX.Ef.Exceptions;
 using System.Linq.Expressions;
+using IRLIX.Core.General;
 
 namespace IRLIX.Ef.Helpers;
 

@@ -32,7 +32,6 @@
 		<ProjectReference Include="..\IRLIX.Mq.Local.MediatR\IRLIX.Mq.Local.MediatR.csproj" />
 		<ProjectReference Include="..\IRLIX.Mq\IRLIX.Mq.csproj" />
 		<ProjectReference Include="..\IRLIX.Web.Cookie\IRLIX.Web.Cookie.csproj" />
-		<ProjectReference Include="..\IRLIX.Web.Cors\IRLIX.Web.Cors.csproj" />
 		<ProjectReference Include="..\IRLIX.Web.Identity\IRLIX.Web.Identity.csproj" />
 		<ProjectReference Include="..\IRLIX.Web.Polling\IRLIX.Web.Polling.csproj" />
 		<ProjectReference Include="..\IRLIX.Web.RateLimiter\IRLIX.Web.RateLimiter.csproj" />

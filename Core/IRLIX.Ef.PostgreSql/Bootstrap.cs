@@ -1,4 +1,5 @@
-﻿using IRLIX.Ef.Configs;
+﻿using IRLIX.Di.Configs;
+using IRLIX.Ef.Configs;
 using Microsoft.Extensions.Configuration;
 using Npgsql;
 

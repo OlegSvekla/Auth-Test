@@ -1,4 +1,5 @@
-﻿using IRLIX.Web.Identity.Tokens.Jwt.Configs;
+﻿using IRLIX.Di.Configs;
+using IRLIX.Web.Identity.Tokens.Jwt.Configs;
 using IRLIX.Web.Identity.Tokens.Jwt.Providers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;

@@ -1,7 +1,6 @@
 ﻿using IRLIX.Http.In;
 using IRLIX.Web.Identity.Tokens;
 using Microsoft.AspNetCore.Http;
-using ShuttleX.Context;
 
 namespace IRLIX.Context.Web.Identity.Middlewares;
 

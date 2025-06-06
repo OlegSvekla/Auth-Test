@@ -1,6 +1,7 @@
 ﻿using IRLIX.Ef.Exceptions;
 using System.ComponentModel;
 using System.Globalization;
+using IRLIX.Core.General;
 
 namespace IRLIX.Ef.Helpers;
 
