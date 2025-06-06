@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ShuttleX.Auth.Resources
+namespace IRLIX.Auth.Resources
 {
 
 
@@ -39,7 +39,7 @@ namespace ShuttleX.Auth.Resources
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ShuttleX.Auth.Resources.Auth", typeof(Auth).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("IRLIX.Auth.Resources.Auth", typeof(Auth).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -59,27 +59,27 @@ namespace ShuttleX.Auth.Resources
                 resourceCulture = value;
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Your ShuttleX code: {0}.
+        ///   Looks up a localized string similar to Your IRLIX code: {0}.
         /// </summary>
         internal static string SendEmailOtpCodeMessage {
             get {
                 return ResourceManager.GetString("SendEmailOtpCodeMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to ShuttleX - Sign in code.
+        ///   Looks up a localized string similar to IRLIX - Sign in code.
         /// </summary>
         internal static string SendEmailOtpCodeSubject {
             get {
                 return ResourceManager.GetString("SendEmailOtpCodeSubject", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to &lt;#&gt; Your ShuttleX code: {0}.
+        ///   Looks up a localized string similar to &lt;#&gt; Your IRLIX code: {0}.
         /// </summary>
         internal static string SendSmsOtpCodeMessage {
             get {

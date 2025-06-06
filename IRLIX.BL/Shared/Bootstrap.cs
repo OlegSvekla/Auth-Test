@@ -1,4 +1,5 @@
-﻿using IRLIX.BL.Shared.HttpClaims;
+﻿using IRLIX.BL.Handlers.Jobs;
+using IRLIX.BL.Shared.HttpClaims;
 using IRLIX.BL.Shared.Lockouts;
 using IRLIX.BL.Shared.Modifiers.Creators;
 using IRLIX.BL.Shared.Modifiers.Searchers;
@@ -13,7 +14,7 @@ namespace IRLIX.Auth.Shared;
 
 public static class Bootstrap
 {
-    public static IServiceCollection AddBatchAuthShared(
+    public static IServiceCollection AddBatchBLShared(
         this IServiceCollection services)
     {
         services.OverrideAndAddScoped<IJwtClaimsEnricher, AuthJwtClaimsEnricher>();
@@ -33,6 +34,8 @@ public static class Bootstrap
         services.AddScoped<ILastSignInAttemptValidator, LastSignInAttemptValidator>();
         services.AddScoped<IAccessFailedCountValidator, SignInAttemptsCountValidator>();
         services.AddScoped<IUserWithSameEmailExistValidator, UserWithSameEmailExistValidator>();
+
+        services.AddScoped<IDeleteExpiresRefreshTokens, DeleteExpiresRefreshTokens>();
 
         return services;
     }

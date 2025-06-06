@@ -5,7 +5,7 @@ namespace IRLIX.BL.Resources;
 
 public static class Bootstrap
 {
-    public static IServiceCollection AddBatchAuthResources(
+    public static IServiceCollection AddBatchBLResources(
         this IServiceCollection services)
     {
         services.AddScoped<IResourceProvider, ResourceProvider>();

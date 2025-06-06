@@ -10,7 +10,7 @@ using IRLIX.Core.General;
 using IRLIX.Mq.Local.MediatR.Handlers;
 using IRLIX.Web.Identity.Lockouts;
 
-namespace IRLIX.BL.Handlers;
+namespace IRLIX.BL.Handlers.Commands;
 
 public class SignMeInViaEmailCommandHandler(
     IUserWithEmailSearcher userWithEmailSearcher,

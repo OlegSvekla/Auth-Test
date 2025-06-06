@@ -3,11 +3,11 @@ using IRLIX.Web.Startups;
 using IRLIX.Web.Startups.Abstracts;
 using Microsoft.AspNetCore.Builder;
 
-namespace ShuttleX.Aggregator;
+namespace IRLIX.Aggregator;
 
 /// <summary>
 /// Aggregator startup with basic to all microservices services
-/// specific for ShuttleX apps
+/// specific for Irlix apps
 /// </summary>
 public sealed class AggregatorStartup : ServiceStartup
 {

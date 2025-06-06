@@ -5,7 +5,7 @@ namespace IRLIX.BL.Otps;
 
 public static class Bootstrap
 {
-    public static IServiceCollection AddBatchAuthOtps(
+    public static IServiceCollection AddBatchBLOtps(
         this IServiceCollection services)
     {
         services.AddScoped<IAggregatedEmailSender, AggregatedEmailSender>();

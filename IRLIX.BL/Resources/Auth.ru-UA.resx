@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="SendEmailOtpCodeMessage" xml:space="preserve">
-    <value>Ваш ShuttleX код: {0}</value>
+    <value>Ваш IRLIX код: {0}</value>
   </data>
   <data name="SendEmailOtpCodeSubject" xml:space="preserve">
-    <value>ShuttleX - Код верификации</value>
+    <value>IRLIX - Код верификации</value>
   </data>
   <data name="SendSmsOtpCodeMessage" xml:space="preserve">
-    <value>&lt;#&gt; Ваш ShuttleX код: {0}</value>
+    <value>&lt;#&gt; Ваш IRLIX код: {0}</value>
   </data>
   <data name="SendSmsOtpCodeSubject" xml:space="preserve">
-    <value>ShuttleX - Код верификации</value>
+    <value>IRLIX - Код верификации</value>
   </data>
 </root>

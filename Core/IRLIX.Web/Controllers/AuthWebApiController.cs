@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using static Microsoft.AspNetCore.Http.StatusCodes;
 
-namespace ShuttleX.Web.Controllers;
+namespace IRLIX.Web.Controllers;
 
 [Authorize]
 [ProducesResponseType(Status401Unauthorized, Type = typeof(void))]

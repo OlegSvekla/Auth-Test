@@ -13,7 +13,7 @@ internal sealed class Startup : ServiceStartup
         IServiceCollection services,
         WebApplicationBuilder builder)
     {
-        services.AddBatchAuth();
+        services.AddBatchBL();
         services.AddBatchAuthWeb();
 
         return ValueTask.FromResult(services);

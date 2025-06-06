@@ -7,12 +7,12 @@ namespace IRLIX.BL;
 
 public static class Bootstrap
 {
-    public static IServiceCollection AddBatchAuth(
+    public static IServiceCollection AddBatchBL(
         this IServiceCollection services)
     {
-        services.AddBatchAuthOtps();
-        services.AddBatchAuthResources();
-        services.AddBatchAuthShared();
+        services.AddBatchBLOtps();
+        services.AddBatchBLResources();
+        services.AddBatchBLShared();
 
         return services;
     }

@@ -1,7 +1,7 @@
 ﻿using IRLIX.Aggregator.Ef.Entities.Auth;
 using IRLIX.Ef.Repositories;
 using Microsoft.EntityFrameworkCore;
-using ShuttleX.Core.Hashes;
+using IRLIX.Core.Hashes;
 
 namespace IRLIX.BL.Shared.Modifiers.Updaters;
 

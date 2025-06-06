@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.DataProtection;
 
-namespace ShuttleX.Web.DataProtections;
+namespace IRLIX.Web.DataProtections;
 
 public static class Bootstrap
 {

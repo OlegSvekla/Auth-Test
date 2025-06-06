@@ -14,7 +14,7 @@ using IRLIX.Web.Startups.Concrete.L11ns;
 using IRLIX.Web.Startups.Concrete.Loggers;
 using IRLIX.Web.Startups.Concrete.Mqs;
 using IRLIX.Web.Startups.Concrete.WebApis;
-using ShuttleX.Aggregator;
+using IRLIX.Aggregator;
 
 var builder = WebApplication.CreateBuilder(args);
 var activator = new ActivatorDependencyResolver();
@@ -40,8 +40,6 @@ var app = await AppBuilder.New(activator)
 
     .With<L11nStartup>()
 
-    .With<LoggerElasticStartup>()
-
     .With<MqStartup>()
     .With<MqLocalMediatRStartup>()
 
@@ -61,6 +59,8 @@ var app = await AppBuilder.New(activator)
     .With<CoreStartup>()
 
     .With<AggregatorStartup>()
+    .With<UseJobsStartup>()
 
     .BuildAsync(builder);
+
 await app.RunAsync();

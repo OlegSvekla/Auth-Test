@@ -3,7 +3,7 @@ using IRLIX.Core.Attributes;
 using IRLIX.Core.Exceptions;
 using static Microsoft.AspNetCore.Http.StatusCodes;
 
-namespace ShuttleX.Auth.Exceptions.SignIns;
+namespace IRLIX.Auth.Exceptions.SignIns;
 
 [HttpResponseStatusCode(Status404NotFound)]
 public class UserNotFoundByEmailException(

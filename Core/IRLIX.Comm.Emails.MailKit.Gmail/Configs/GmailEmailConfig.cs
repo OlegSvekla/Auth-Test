@@ -6,7 +6,7 @@ public sealed class GmailEmailConfig
     /// Email is email address from which all messages will be sent
     /// </summary>
     /// <remarks>
-    /// Example: noreply@shuttlex.com
+    /// Example: xxx@zzz.com
     /// </remarks>
     public string Email { get; init; } = default!;
 

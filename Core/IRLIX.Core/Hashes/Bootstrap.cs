@@ -1,4 +1,4 @@
-﻿namespace ShuttleX.Core.Hashes;
+﻿namespace IRLIX.Core.Hashes;
 
 public static class Bootstrap
 {

@@ -1,12 +1,8 @@
-﻿using IRLIX.Mq.Local.MediatR.Messages;
-namespace IRLIX.Auth.Contracts.Queries.Users;
+﻿namespace IRLIX.Auth.Contracts.Queries.Users;
 
 public sealed record GetUsersQuery(
     int? Amount,
-    int? Offset,
-    string? SortBy,
-    string? FilterBy,
-    bool? IncludeDeleted
+    int? Offset
     ) : IMediatrQuery<IReadOnlyCollection<GetUsersQueryRs>>;
 
 public sealed record GetUsersQueryRs(

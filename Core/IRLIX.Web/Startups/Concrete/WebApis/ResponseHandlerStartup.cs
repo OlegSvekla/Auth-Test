@@ -10,8 +10,6 @@ public sealed class ResponseHandlerStartup : AppStartup
     public override ValueTask<WebApplication> UseAsync(
         WebApplication app)
     {
-        //TODO: use compressing?
-        //app.UseResponseCompression();
         app.UseResponseCaching();
 
         return ValueTask.FromResult(app);

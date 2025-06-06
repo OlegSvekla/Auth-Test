@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace ShuttleX.Core.Hashes;
+namespace IRLIX.Core.Hashes;
 
 public interface IHashClient
 {
