@@ -1,5 +1,5 @@
-﻿using ShuttleX.Web.DataProtections;
-using ShuttleX.Web.Startups.Abstracts;
+﻿using IRLIX.Web.Startups.Abstracts;
+using ShuttleX.Web.DataProtections;
 
 namespace IRLIX.Web.Startups.Concrete.WebApis;
 

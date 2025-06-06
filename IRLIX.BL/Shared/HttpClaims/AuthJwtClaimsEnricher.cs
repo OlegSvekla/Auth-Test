@@ -1,7 +1,7 @@
-﻿using IRLIX.Core.Entities;
-using IRLIX.Core.Identity;
-using IRLIX.Core.Identity.Models;
-using IRLIX.Core.Identity.Tokens.Jwt;
+﻿using IRLIX.Aggregator.Ef.Entities.Auth;
+using IRLIX.Context;
+using IRLIX.Web.Identity;
+using IRLIX.Web.Identity.Tokens.Jwt;
 using System.Security.Claims;
 
 namespace IRLIX.BL.Shared.HttpClaims;

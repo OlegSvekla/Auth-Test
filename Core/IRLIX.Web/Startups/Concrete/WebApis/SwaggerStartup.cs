@@ -1,6 +1,6 @@
-﻿using Microsoft.Extensions.Hosting;
-using ShuttleX.Web.Startups.Abstracts;
-using ShuttleX.Web.Swagger;
+﻿using IRLIX.Web.Startups.Abstracts;
+using IRLIX.Web.Swagger;
+using Microsoft.Extensions.Hosting;
 
 namespace IRLIX.Web.Startups.Concrete.WebApis;
 

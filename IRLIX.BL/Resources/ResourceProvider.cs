@@ -1,4 +1,4 @@
-﻿using IRLIX.Core.L11n;
+﻿using IRLIX.L11n;
 using System.Reflection;
 using System.Resources;
 

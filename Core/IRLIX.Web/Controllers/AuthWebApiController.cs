@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using IRLIX.Web.Controllers;
+using IRLIX.Web.Models.Rss.Errors;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using ShuttleX.Web.Models.Rss.Errors;
 using static Microsoft.AspNetCore.Http.StatusCodes;
 
 namespace ShuttleX.Web.Controllers;

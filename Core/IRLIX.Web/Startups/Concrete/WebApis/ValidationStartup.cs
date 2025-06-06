@@ -1,5 +1,6 @@
-﻿using IRLIX.Web.Startups.Abstracts;
-using ShuttleX.Web.Models;
+﻿using IRLIX.Web.Models;
+using IRLIX.Web.Startups.Abstracts;
+using IRLIX.Web.Validation.FluentValidation;
 
 namespace IRLIX.Web.Startups.Concrete.WebApis;
 

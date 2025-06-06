@@ -1,4 +1,4 @@
-﻿namespace ShuttleX.Web.Models.Rqs;
+﻿namespace IRLIX.Web.Models.Rqs;
 
 public record SearchQueryRq(
     int? Amount,

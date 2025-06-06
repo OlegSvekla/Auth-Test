@@ -1,6 +1,7 @@
 ﻿using IRLIX.Aggregator.Ef.Configs;
 using IRLIX.Aggregator.Ef.Connectors;
 using IRLIX.Aggregator.Ef.Providers;
+using IRLIX.Di.Helpers;
 using IRLIX.Ef.Setup;
 using Microsoft.Extensions.Configuration;
 

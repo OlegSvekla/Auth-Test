@@ -1,4 +1,5 @@
 ﻿using IRLIX.Aggregator.Ef.Entities.Auth;
+using IRLIX.Core.General;
 using IRLIX.Ef.Repositories;
 using Microsoft.EntityFrameworkCore;
 

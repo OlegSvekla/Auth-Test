@@ -1,14 +1,14 @@
-﻿using IRLIX.BL.Otps;
+﻿using IRLIX.Aggregator.Ef.Enums.Auth;
+using IRLIX.BL.Otps;
 using IRLIX.BL.Otps.Senders;
 using IRLIX.BL.Shared.Modifiers.Creators;
 using IRLIX.BL.Shared.Modifiers.Searchers;
 using IRLIX.BL.Shared.Modifiers.Updaters;
 using IRLIX.BL.Shared.Modifiers.Validators.SignInAttempts;
 using IRLIX.Contracts.Commands.SignIns;
-using IRLIX.Core.Core.General;
-using IRLIX.Core.Enums;
-using IRLIX.Core.Identity.Lockouts;
-using IRLIX.Core.Mq.Local.MediatR.Handlers;
+using IRLIX.Core.General;
+using IRLIX.Mq.Local.MediatR.Handlers;
+using IRLIX.Web.Identity.Lockouts;
 
 namespace IRLIX.BL.Handlers;
 

@@ -12,7 +12,7 @@ public static class Bootstrap
     {
         services.AddBatchAggregatorApp();
         services.AddBatchAggregatorEf(config);
-        services.AddBatchAggregatorSimulacrums();
+        //services.AddBatchAggregatorSimulacrums();
 
         return services;
     }

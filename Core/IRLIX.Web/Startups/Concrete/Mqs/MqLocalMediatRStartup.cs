@@ -1,4 +1,5 @@
-﻿using IRLIX.Web.Startups.Abstracts;
+﻿using IRLIX.Mq.Local.MediatR;
+using IRLIX.Web.Startups.Abstracts;
 
 namespace IRLIX.Web.Startups.Concrete.Mqs;
 

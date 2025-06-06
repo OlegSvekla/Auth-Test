@@ -1,4 +1,5 @@
-﻿using IRLIX.Web.Startups.Abstracts;
+﻿using IRLIX.Web.RateLimiter;
+using IRLIX.Web.Startups.Abstracts;
 
 namespace IRLIX.Web.Startups.Concrete.WebApis;
 

@@ -1,6 +1,6 @@
-﻿using ShuttleX.Web.Models.Rqs;
+﻿using IRLIX.Web.Models.Rqs;
 
-namespace ShuttleX.Web.Models;
+namespace IRLIX.Web.Models;
 
 public static class Bootstrap
 {

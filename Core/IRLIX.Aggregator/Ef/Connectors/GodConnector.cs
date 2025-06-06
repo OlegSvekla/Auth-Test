@@ -12,7 +12,7 @@ public class GodConnector : DbConnector, IGodConnector
         await base.ConnectAsync(modelBuilder);
 
         await modelBuilder.ConnectUserAsync();
-        await modelBuilder.ConnectIdempotencyAsync();
-        await modelBuilder.ConnectSagaPaymentAsync();
+        //await modelBuilder.ConnectIdempotencyAsync();
+        //await modelBuilder.ConnectSagaPaymentAsync();
     }
 }

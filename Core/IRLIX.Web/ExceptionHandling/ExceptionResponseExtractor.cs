@@ -1,10 +1,10 @@
-﻿using ShuttleX.Core.Exceptions;
-using ShuttleX.Core.General;
-using ShuttleX.Web.Identity.Exceptions;
-using ShuttleX.Web.Models.Rss.Errors;
-using ShuttleX.Web.Validation.FluentValidation.Exceptions;
+﻿using IRLIX.Core.Exceptions;
+using IRLIX.Core.General;
+using IRLIX.Web.Identity.Exceptions;
+using IRLIX.Web.Models.Rss.Errors;
+using IRLIX.Web.Validation.FluentValidation.Exceptions;
 
-namespace ShuttleX.Web.ExceptionHandling;
+namespace IRLIX.Web.ExceptionHandling;
 
 public interface IExceptionResponseExtractor
 {

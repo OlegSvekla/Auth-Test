@@ -1,5 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
-using ShuttleX.Web.Startups.Abstracts;
+﻿using IRLIX.Web.Startups.Abstracts;
+using Microsoft.Extensions.Configuration;
 
 namespace IRLIX.Web.Startups.Concrete.WebApis;
 

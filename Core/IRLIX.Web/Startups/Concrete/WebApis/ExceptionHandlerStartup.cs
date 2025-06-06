@@ -1,5 +1,5 @@
-﻿using ShuttleX.Web.ExceptionHandling;
-using ShuttleX.Web.Startups.Abstracts;
+﻿using IRLIX.Web.Startups.Abstracts;
+using IRLIX.Web.ExceptionHandling;
 
 namespace IRLIX.Web.Startups.Concrete.WebApis;
 

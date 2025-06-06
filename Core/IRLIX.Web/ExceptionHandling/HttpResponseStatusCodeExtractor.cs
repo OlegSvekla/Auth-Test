@@ -1,8 +1,8 @@
-﻿using System.Net;
+﻿using IRLIX.Core.Attributes;
+using System.Net;
 using System.Reflection;
-using ShuttleX.Core.Attributes;
 
-namespace ShuttleX.Web.ExceptionHandling;
+namespace IRLIX.Web.ExceptionHandling;
 
 public interface IHttpResponseStatusCodeExtractor
 {

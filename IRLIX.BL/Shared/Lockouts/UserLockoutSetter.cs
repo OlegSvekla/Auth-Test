@@ -1,8 +1,9 @@
-﻿using IRLIX.Core.Entities;
-using IRLIX.Core.Identity;
-using IRLIX.Core.Identity.Lockouts;
-using IRLIX.Core.IRLIX.Web.Identity.Lockouts.Models;
+﻿using IRLIX.Aggregator.Ef.Entities.Auth;
 using IRLIX.Core.Time;
+using IRLIX.Web.Identity;
+using IRLIX.Web.Identity.Exceptions;
+using IRLIX.Web.Identity.Lockouts;
+using IRLIX.Web.Identity.Lockouts.Models;
 
 namespace IRLIX.BL.Shared.Lockouts;
 
@@ -71,6 +72,6 @@ internal class UserLockoutSetter(
         };
         await lockoutClient.SetLockoutAsync(userId, userName, lockout, ct);
 
-        //UserLockedOutException.ThrowIfLockoutEndDateFound(lockout);
+        UserLockedOutException.ThrowIfLockoutEndDateFound(lockout);
     }
 }

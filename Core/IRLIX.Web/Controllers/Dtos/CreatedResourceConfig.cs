@@ -1,4 +1,4 @@
-﻿namespace ShuttleX.Web.Controllers.Dtos;
+﻿namespace IRLIX.Web.Controllers.Dtos;
 
 public sealed record CreatedResourceConfig(
     string NameOfAction,

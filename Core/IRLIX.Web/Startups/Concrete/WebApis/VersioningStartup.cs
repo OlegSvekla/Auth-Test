@@ -1,5 +1,5 @@
-﻿using ShuttleX.Web.Startups.Abstracts;
-using ShuttleX.Web.Versioning;
+﻿using IRLIX.Web.Startups.Abstracts;
+using IRLIX.Web.Versioning;
 
 namespace IRLIX.Web.Startups.Concrete.WebApis;
 

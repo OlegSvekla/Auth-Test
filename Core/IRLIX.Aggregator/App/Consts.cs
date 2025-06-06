@@ -2,5 +2,5 @@
 
 public static class Consts
 {
-    //public const string AppName = "ShuttleX";
+    public const string AppName = "IRLIX";
 }

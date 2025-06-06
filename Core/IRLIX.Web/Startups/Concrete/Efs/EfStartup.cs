@@ -1,5 +1,4 @@
-﻿using IRLIX.Web.Startups.Abstracts;
-using IRLIX.Ef;
+﻿using IRLIX.Ef;
 using IRLIX.Web.Startups.Abstracts;
 
 namespace IRLIX.Web.Startups.Concrete.Efs;

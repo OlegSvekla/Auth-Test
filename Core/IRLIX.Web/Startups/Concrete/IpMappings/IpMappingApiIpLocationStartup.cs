@@ -1,6 +1,5 @@
-﻿using IRLIX.Web.Startups.Abstracts;
-using ShuttleX.IpMapping.ApiIpLocation;
-using ShuttleX.Web.Startups.Abstracts;
+﻿using IRLIX.IpMapping.ApiIpLocation;
+using IRLIX.Web.Startups.Abstracts;
 
 namespace IRLIX.Web.Startups.Concrete.IpMappings;
 

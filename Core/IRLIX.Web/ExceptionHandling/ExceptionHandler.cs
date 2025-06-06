@@ -1,10 +1,10 @@
-﻿using System.Net.Mime;
+﻿using IRLIX.Core.Exceptions;
+using IRLIX.Core.Serializers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using ShuttleX.Core.Exceptions;
-using ShuttleX.Core.Serializers;
+using System.Net.Mime;
 
-namespace ShuttleX.Web.ExceptionHandling;
+namespace IRLIX.Web.ExceptionHandling;
 
 public interface IExceptionHandler
 {

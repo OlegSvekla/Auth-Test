@@ -1,4 +1,4 @@
-﻿namespace ShuttleX.Web.ExceptionHandling;
+﻿namespace IRLIX.Web.ExceptionHandling;
 
 public static class Bootstrap
 {

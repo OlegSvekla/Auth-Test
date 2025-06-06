@@ -1,5 +1,5 @@
-﻿using ShuttleX.Mq;
-using ShuttleX.Web.Startups.Abstracts;
+﻿using IRLIX.Mq;
+using IRLIX.Web.Startups.Abstracts;
 
 namespace IRLIX.Web.Startups.Concrete.Mqs;
 

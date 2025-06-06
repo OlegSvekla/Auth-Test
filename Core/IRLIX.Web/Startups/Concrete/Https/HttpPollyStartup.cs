@@ -1,4 +1,5 @@
-﻿using IRLIX.Web.Startups.Abstracts;
+﻿using IRLIX.Http.Polly;
+using IRLIX.Web.Startups.Abstracts;
 
 namespace IRLIX.Web.Startups.Concrete.Https;
 

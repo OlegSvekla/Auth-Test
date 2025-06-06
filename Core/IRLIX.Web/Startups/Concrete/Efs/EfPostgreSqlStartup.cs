@@ -1,4 +1,5 @@
 ﻿using IRLIX.Ef;
+using IRLIX.Ef.PostgreSql;
 using IRLIX.Web.Startups.Abstracts;
 using Microsoft.EntityFrameworkCore;
 

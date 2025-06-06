@@ -1,5 +1,6 @@
 ﻿using IRLIX.Ef.Identity;
 using IRLIX.Ef.Identity.Models;
+using IRLIX.Web.Identity;
 using IRLIX.Web.Startups.Abstracts;
 
 namespace IRLIX.Web.Startups.Concrete.Identities;

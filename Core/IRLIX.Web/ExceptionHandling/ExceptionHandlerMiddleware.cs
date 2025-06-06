@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace ShuttleX.Web.ExceptionHandling;
+namespace IRLIX.Web.ExceptionHandling;
 
 public class ExceptionHandlerMiddleware(
     IExceptionHandler exceptionHandler

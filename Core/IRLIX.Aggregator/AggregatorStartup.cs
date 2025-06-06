@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Builder;
-using ShuttleX.Web.Startups;
-using ShuttleX.Web.Startups.Abstracts;
+﻿using IRLIX.Aggregator;
+using IRLIX.Web.Startups;
+using IRLIX.Web.Startups.Abstracts;
+using Microsoft.AspNetCore.Builder;
 
 namespace ShuttleX.Aggregator;
 
