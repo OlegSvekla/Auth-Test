@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IRLIX.Context\IRLIX.Context.csproj" />
+    <ProjectReference Include="..\IRLIX.Di\IRLIX.Di.csproj" />
+    <ProjectReference Include="..\IRLIX.Ef.Identity\IRLIX.Ef.Identity.csproj" />
+    <ProjectReference Include="..\IRLIX.Http\IRLIX.Http.csproj" />
+  </ItemGroup>
+	
+</Project>

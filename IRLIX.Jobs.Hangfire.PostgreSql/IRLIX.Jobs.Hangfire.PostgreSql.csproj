@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Hangfire.PostgreSql" Version="1.20.9" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\IRLIX.Jobs.Hangfire\IRLIX.Jobs.Hangfire.csproj" />
+	</ItemGroup>
+	
+</Project>

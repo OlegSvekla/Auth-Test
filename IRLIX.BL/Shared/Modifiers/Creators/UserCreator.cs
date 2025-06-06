@@ -1,6 +1,6 @@
-﻿using IRLIX.Core.Context;
-using IRLIX.Core.Entities;
-using IRLIX.Core.Identity;
+﻿using IRLIX.Aggregator.Ef.Entities.Auth;
+using IRLIX.Context;
+using IRLIX.Web.Identity;
 
 namespace IRLIX.BL.Shared.Modifiers.Creators;
 

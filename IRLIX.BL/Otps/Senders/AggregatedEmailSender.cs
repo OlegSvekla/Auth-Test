@@ -1,8 +1,8 @@
 using IRLIX.BL.Resources;
-using IRLIX.Core.Core.ChainFuncs;
-using IRLIX.Core.Email;
-using IRLIX.Core.Email.Models;
-using IRLIX.Core.L11n;
+using IRLIX.Comm.Emails.MailKit.Gmail;
+using IRLIX.Comm.Emails.MailKit.Models;
+using IRLIX.Core.ChainFuncs;
+using IRLIX.L11n;
 
 namespace IRLIX.BL.Otps.Senders;
 

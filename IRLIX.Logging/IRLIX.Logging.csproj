@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Serilog.AspNetCore" Version="8.0.2" />
+		<PackageReference Include="Serilog.Enrichers.Claims" Version="1.1.1" />
+		<PackageReference Include="Serilog.Enrichers.ClientInfo" Version="2.1.2" />
+		<PackageReference Include="Serilog.Enrichers.Environment" Version="3.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\IRLIX.Context\IRLIX.Context.csproj" />
+		<ProjectReference Include="..\IRLIX.Core\IRLIX.Core.csproj" />
+		<ProjectReference Include="..\IRLIX.Http\IRLIX.Http.csproj" />
+	</ItemGroup>
+	
+</Project>

@@ -1,8 +1,8 @@
-﻿using IRLIX.Core.Core.General;
-using IRLIX.Core.Enums;
-using IRLIX.Core.Http.In;
-using IRLIX.Core.Identity;
-using IRLIX.Repository.Repository.Interfaces.Common;
+﻿using IRLIX.Aggregator.Ef.Entities.Auth;
+using IRLIX.Aggregator.Ef.Enums.Auth;
+using IRLIX.Core.General;
+using IRLIX.Ef.Repositories;
+using IRLIX.Http.In;
 
 namespace IRLIX.BL.Shared.Modifiers.Creators;
 

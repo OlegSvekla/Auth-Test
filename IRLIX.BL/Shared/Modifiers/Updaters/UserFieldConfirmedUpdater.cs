@@ -1,6 +1,6 @@
-﻿using IRLIX.Core.Entities;
-using IRLIX.Core.Identity;
-using IRLIX.Repository.Repository.Interfaces.Common;
+﻿using IRLIX.Aggregator.Ef.Entities.Auth;
+using IRLIX.Ef.Repositories;
+using IRLIX.Web.Identity;
 
 namespace IRLIX.BL.Shared.Modifiers.Updaters;
 

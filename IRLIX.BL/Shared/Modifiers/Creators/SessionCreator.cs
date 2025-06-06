@@ -1,9 +1,8 @@
-﻿using IRLIX.Core.Core.General;
-using IRLIX.Core.Entities;
-using IRLIX.Core.Http.In;
-using IRLIX.Core.Identity;
-using IRLIX.Core.Identity.Tokens;
-using IRLIX.Repository.Repository.Interfaces.Common;
+﻿using IRLIX.Aggregator.Ef.Entities.Auth;
+using IRLIX.Core.General;
+using IRLIX.Ef.Repositories;
+using IRLIX.Http.In;
+using IRLIX.Web.Identity.Tokens;
 using Microsoft.EntityFrameworkCore;
 
 namespace IRLIX.BL.Shared.Modifiers.Creators;

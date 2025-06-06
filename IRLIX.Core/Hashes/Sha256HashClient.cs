@@ -1,9 +1,9 @@
-﻿using System.Globalization;
+﻿using IRLIX.Core.General;
+using System.Globalization;
 using System.Security.Cryptography;
 using System.Text;
-using IRLIX.Core.Core.General;
 
-namespace IRLIX.Core.Hashes;
+namespace ShuttleX.Core.Hashes;
 
 public interface IHashClient
 {

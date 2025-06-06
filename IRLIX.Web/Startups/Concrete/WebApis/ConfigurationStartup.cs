@@ -1,0 +1,17 @@
+﻿using Microsoft.Extensions.Configuration;
+using ShuttleX.Web.Startups.Abstracts;
+
+namespace IRLIX.Web.Startups.Concrete.WebApis;
+
+public class ConfigurationStartup : ServiceStartup
+{
+    public override ValueTask<IServiceCollection> AddAsync(IServiceCollection services, WebApplicationBuilder builder)
+    {
+        builder.Configuration
+            .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+            .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: true)
+            .AddEnvironmentVariables(prefix: "ShuttleX__");
+
+        return ValueTask.FromResult(services);
+    }
+}

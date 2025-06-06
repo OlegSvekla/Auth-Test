@@ -1,5 +1,5 @@
-﻿using IRLIX.Core.Entities;
-using IRLIX.Repository.Repository.Interfaces.Common;
+﻿using IRLIX.Aggregator.Ef.Entities.Auth;
+using IRLIX.Ef.Repositories;
 
 namespace IRLIX.BL.Shared.Modifiers.Validators.Users;
 

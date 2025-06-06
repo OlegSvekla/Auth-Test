@@ -5,9 +5,8 @@ using IRLIX.BL.Shared.Modifiers.Searchers;
 using IRLIX.BL.Shared.Modifiers.Updaters;
 using IRLIX.BL.Shared.Modifiers.Validators.SignInAttempts;
 using IRLIX.BL.Shared.Modifiers.Validators.Users;
-using IRLIX.Core.Identity.Tokens.Jwt;
+using IRLIX.Web.Identity.Tokens.Jwt;
 using Microsoft.Extensions.DependencyInjection;
-using IRLIX.Core.Di.Helpers;
 
 namespace ShuttleX.Auth.Shared;
 

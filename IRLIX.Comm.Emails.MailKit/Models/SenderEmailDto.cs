@@ -1,0 +1,8 @@
+﻿namespace IRLIX.Comm.Emails.MailKit.Models;
+
+public record SenderEmailDto(
+    string Email,
+    string Password,
+    string Host,
+    int Port
+    );

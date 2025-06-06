@@ -1,4 +1,4 @@
-﻿using IRLIX.Core.Mq.Local.MediatR;
+﻿using IRLIX.Mq.Local.MediatR.Messages;
 
 namespace IRLIX.Contracts.Commands.SignIns;
 

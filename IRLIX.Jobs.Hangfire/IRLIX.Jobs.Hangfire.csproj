@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Hangfire.AspNetCore" Version="1.8.14" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\IRLIX.Context\IRLIX.Context.csproj" />
+		<ProjectReference Include="..\IRLIX.Core\IRLIX.Core.csproj" />
+		<ProjectReference Include="..\IRLIX.Logging\IRLIX.Logging.csproj" />
+	</ItemGroup>
+	
+</Project>

@@ -1,5 +1,5 @@
-﻿using IRLIX.Core.Entities;
-using IRLIX.Core.Identity;
+﻿using IRLIX.Aggregator.Ef.Entities.Auth;
+using IRLIX.Web.Identity;
 using static IRLIX.BL.Otps.Consts;
 
 namespace IRLIX.BL.Otps;
