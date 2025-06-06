@@ -1,6 +1,4 @@
-﻿using IRLIX.Aggregator.Ef.Configs;
-using IRLIX.Aggregator.Ef.Connectors;
-using IRLIX.Aggregator.Ef.Providers;
+﻿using IRLIX.Aggregator.Ef.Connectors;
 using IRLIX.Di.Helpers;
 using IRLIX.Ef.Setup;
 using Microsoft.Extensions.Configuration;
@@ -13,7 +11,6 @@ public static class Bootstrap
         this IServiceCollection services,
         IConfiguration config)
     {
-        services.AddAppSettingsAggregatorEf(config);
         services.AddCoreAggregatorEf();
 
         return services;
@@ -26,21 +23,7 @@ public static class Bootstrap
         services.OverrideAndAddScoped<IDbConnector, GodConnector>(sp => sp.GetRequiredService<GodConnector>());
         services.AddScoped<IGodConnector, GodConnector>(sp => sp.GetRequiredService<GodConnector>());
 
-        services.AddScoped<GodSeeder>();
-        services.OverrideAndAddScoped<IDbSeeder, GodSeeder>(sp => sp.GetRequiredService<GodSeeder>());
-        services.AddScoped<IGodSeeder, GodSeeder>(sp => sp.GetRequiredService<GodSeeder>());
-
         services.AddScoped<IGodContext, GodContext>(sp => sp.GetRequiredService<GodContext>());
-
-        return services;
-    }
-
-    private static IServiceCollection AddAppSettingsAggregatorEf(
-        this IServiceCollection services,
-        IConfiguration config)
-    {
-        services.Configure<AggregatorEfConfig>(config.GetSection(Consts.AggregatorEfConfigSectionKey));
-        services.AddSingleton<IAggregatorEfConfigProvider, AggregatorEfConfigProvider>();
 
         return services;
     }

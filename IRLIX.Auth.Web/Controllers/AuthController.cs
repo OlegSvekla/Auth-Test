@@ -1,8 +1,8 @@
-﻿using IRLIX.Contracts.Commands.SignIns;
+﻿using IRLIX.Auth.Contracts.Commands.SignIns;
+using IRLIX.Auth.Web.Models.Rqs.SignIns;
 using IRLIX.Core.Interfaces.Mappers;
 using IRLIX.L11n;
 using IRLIX.Mq.Buses;
-using IRLIX.Web.Models.Rqs.SignIns;
 using IRLIX.Web.Models.Rss.Errors;
 using Microsoft.AspNetCore.Mvc;
 using static IRLIX.L11n.Consts;

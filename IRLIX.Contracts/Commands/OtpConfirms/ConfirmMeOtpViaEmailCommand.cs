@@ -1,8 +1,8 @@
 ﻿using IRLIX.Mq.Local.MediatR.Messages;
 
-namespace IRLIX.Auth.Contracts.Commands.SignIns;
+namespace IRLIX.Auth.Contracts.Commands.OtpConfirms;
 
-public sealed record SignMeInViaEmailCommand(
+public record ConfirmMeOtpViaEmailCommand(
     string Email,
     string DeviceId
     ) : IMediatrCommand;

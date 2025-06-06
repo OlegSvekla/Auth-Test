@@ -1,16 +1,16 @@
 ﻿using FluentValidation;
 
-namespace IRLIX.Auth.Web.Models.Rqs.SignIns;
+namespace IRLIX.Auth.Web.Models.Rqs.OtpConfirms;
 
-public sealed record SignMeInViaEmailBodyRq(
+public record ConfirmMeOtpViaEmailBodyRq(
     string Email,
     string DeviceId
     );
 
-public class SignMeInViaEmailBodyRqValidator
-    : AbstractValidator<SignMeInViaEmailBodyRq>
+public class ConfirmMeOtpViaEmailBodyRqValidator
+    : AbstractValidator<ConfirmMeOtpViaEmailBodyRq>
 {
-    public SignMeInViaEmailBodyRqValidator()
+    public ConfirmMeOtpViaEmailBodyRqValidator()
     {
         RuleFor(x => x.Email)
             .NotEmpty().WithMessage("Email is required.")

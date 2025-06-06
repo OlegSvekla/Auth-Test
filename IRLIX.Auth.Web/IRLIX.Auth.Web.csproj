@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\IRLIX.Contracts\IRLIX.Contracts.csproj" />
+	<ProjectReference Include="..\IRLIX.BL\IRLIX.BL.csproj" />
   </ItemGroup>
 
 </Project>
