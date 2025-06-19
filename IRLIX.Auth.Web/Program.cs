@@ -58,7 +58,7 @@ var app = await AppBuilder.New(activator)
     .With<CoreStartup>()
 
     .With<AggregatorStartup>()
-    .With<UseJobsStartup>()
+    //.With<UseJobsStartup>()
 
     .BuildAsync(builder);
 
